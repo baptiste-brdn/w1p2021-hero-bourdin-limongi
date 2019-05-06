@@ -2,7 +2,7 @@
   <div class="big-header">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/character">Go to Character</router-link>
+    <router-link class="button" to="/">Go to Home</router-link>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      message: 'Hello Gamer !'
+      message: 'Game Over'
     };
   }
 };
